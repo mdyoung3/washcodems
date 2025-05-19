@@ -56,3 +56,4 @@
 /drupal.phar
 /drupal
 /.idea
+web/drush/drush.yml
