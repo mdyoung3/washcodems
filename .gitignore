@@ -57,3 +57,9 @@
 /drupal
 /.idea
 web/drush/drush.yml
+
+# Ignore sql files
+*.sql
+*.sql.gz
+*.gz
+
