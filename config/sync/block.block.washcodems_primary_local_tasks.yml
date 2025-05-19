@@ -1,0 +1,22 @@
+uuid: a8b34bc3-3f55-44a3-9442-2b9055b2b8f5
+langcode: en
+status: true
+dependencies:
+  theme:
+    - washcodems
+_core:
+  default_config_hash: A_KsAw1fyIvdBubmxkvtCtoSuV62cVV-p0RSPnvqc9U
+id: washcodems_primary_local_tasks
+theme: washcodems
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

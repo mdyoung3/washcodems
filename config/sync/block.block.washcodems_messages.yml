@@ -1,0 +1,22 @@
+uuid: 321d23be-4c96-40f1-8bc4-40faad366aee
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - washcodems
+_core:
+  default_config_hash: 5ra2HNIksWbp6AhPpTufTGSlgx2FR7RR_ssxdjgFg4I
+id: washcodems_messages
+theme: washcodems
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: afdeb117-d0f9-4db9-b600-250e8dfa0b9a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - washcodems
+_core:
+  default_config_hash: 5VBXsyvJSTQNtrh86WK8GN_FCaRtK03D1fjfZQnUvtU
+id: washcodems_powered
+theme: washcodems
+region: navbar
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

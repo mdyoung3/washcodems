@@ -1,0 +1,22 @@
+uuid: bbe596ac-8cb0-4617-b126-95ca57f06bc7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - washcodems
+_core:
+  default_config_hash: rUKMsaj4XvIHtU3kRiHIA6Rkn4IHzCkhTiUZudMkp14
+id: washcodems_breadcrumbs
+theme: washcodems
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

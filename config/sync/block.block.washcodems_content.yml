@@ -1,0 +1,22 @@
+uuid: 2c3662fd-e2ac-46f4-9aa5-be6d7fe3fa9e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - washcodems
+_core:
+  default_config_hash: G4iNGvy_k2yNIEH_FJmbkvgBBar1etJIhKJYuygT7hU
+id: washcodems_content
+theme: washcodems
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

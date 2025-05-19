@@ -1,0 +1,22 @@
+uuid: 86576440-3a71-44d8-96db-a4e71f2250b4
+langcode: en
+status: true
+dependencies:
+  theme:
+    - washcodems
+_core:
+  default_config_hash: 3KAyDgB3FHENrBwroAUcCPvkfPHBMFcRDnsZFyFMuwc
+id: washcodems_secondary_local_tasks
+theme: washcodems
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

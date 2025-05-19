@@ -1,0 +1,20 @@
+uuid: 5f65d0a5-22f4-48c7-a619-7d11c47afdca
+langcode: en
+status: true
+dependencies:
+  theme:
+    - washcodems
+_core:
+  default_config_hash: dY7_Wihz9ohfBPKP554_brUfc9nPaecShShmC_VTGRM
+id: washcodems_page_title
+theme: washcodems
+region: content_above
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

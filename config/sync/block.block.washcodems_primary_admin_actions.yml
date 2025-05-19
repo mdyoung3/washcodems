@@ -1,0 +1,20 @@
+uuid: 58f86802-30f9-4530-8508-3b4e2e50d251
+langcode: en
+status: true
+dependencies:
+  theme:
+    - washcodems
+_core:
+  default_config_hash: bXIY_bcTLD1-0gwNQhWPHANNy6hQa_RxJgvHxKhNS2E
+id: washcodems_primary_admin_actions
+theme: washcodems
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }
