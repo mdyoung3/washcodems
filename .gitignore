@@ -56,3 +56,8 @@
 /drupal.phar
 /drupal
 /.idea
+
+# Ignore sql files
+*.sql
+*.sql.gz
+*.gz
