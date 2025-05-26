@@ -17,6 +17,7 @@
     },
     "require": {
         "composer/installers": "^2.3",
+        "drupal/block_class": "^4.0",
         "drupal/core-composer-scaffold": "^11.1.5",
         "drupal/core-project-message": "^11.1.5",
         "drupal/core-recommended": "^11.1.5",
@@ -36,7 +37,6 @@
         "drupal/material_base": "^3.0",
         "drupal/project_browser": "@beta",
         "drupal/recipe_installer_kit": "^1-alpha3@alpha",
-        "drupal/tailwindcss": "^5.0@alpha",
         "drupal/webform": "@beta",
         "drush/drush": "^13"
     },
