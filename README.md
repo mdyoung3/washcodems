@@ -1,47 +1,36 @@
-# Drupal CMS
+# Washington County Democratic Party of Utah - Drupal Site
 
-Drupal CMS is a fast-moving open source product that enables site builders to easily create new Drupal sites and extend them with smart defaults, all using their browser.
+This project is a Drupal-based website designed to cater to the needs of non-profit organizations. The Drupal core and modules are managed via Composer, ensuring all dependencies are satisfied and versioning is kept clean and easy to manage.
 
-## Getting started
+## Pre-requisites
+- Ddev for local development
+- PHP 8.3
+- Composer 2.0.13 (or later)
+- Node.js 14.16.0 (or later)
+- Yarn 1.22.10 (or later)
 
-If you want to use [DDEV](https://ddev.com) to run Drupal CMS locally, follow these instructions:
+## Installation
+1. Clone the repository to your local development environment.
+2. Run `composer install` in the project directory to install the Drupal core, contributed modules, and their dependencies.
+3. Import the database from a provided dump file.
+4. Run `yarn install` to install all necessary front-end dependencies.
 
-1. Install DDEV following the [documentation](https://ddev.com/get-started/)
-2. Open the command line and `cd` to the root directory of this project
-3. Run the following commands:
-```shell
-ddev config --project-type=drupal11 --docroot=web
-ddev start
-ddev composer install
-ddev launch
-```
+## Front-end Theming
+The theme for this website is a custom sub-theme. We use YARN for front-end package management and theming. To make changes in the theme:
+1. Navigate to `./themes/custom/{theme_name}`
+2. Run `yarn install` to ensure that all dependencies are installed.
+3. Make your changes to the SASS (.scss) files.
+4. Run `yarn run build:css` to compile your SASS files into CSS.
 
-Drupal CMS has the same system requirements as Drupal core, so you can use your preferred setup to run it locally. [See the Drupal User Guide for more information](https://www.drupal.org/docs/user_guide/en/installation-chapter.html) on how to set up Drupal.
+## Drupal Core and Module Updates
+Since our Drupal site is managed with Composer, running updates is easy.
+Just go to the project root directory in your terminal and run `composer update`.
 
-### Installation options
+This will update Drupal core and contributed modules to their latest versions, as allowed by the version constraints set in the `composer.json` file.
 
-The Drupal CMS installer offers a list of features preconfigured with smart defaults. You will be able to customize whatever you choose, and add additional features, once you are logged in.
+Remember to always test updates in a development environment first!
 
-After the installer is complete, you will land on the dashboard.
+## Issues
+If you encounter any issues while using this website, please open an issue in the Issues tab of this repository.
 
-## Documentation
-
-Coming soon ... [We're working on Drupal CMS specific documentation](https://www.drupal.org/project/drupal_cms/issues/3454527).
-
-In the meantime, learn more about managing a Drupal-based application in the [Drupal User Guide](https://www.drupal.org/docs/user_guide/en/index.html).
-
-## Contributing
-
-Drupal CMS is developed in the open on [Drupal.org](https://www.drupal.org). We are grateful to the community for reporting bugs and contributing fixes and improvements.
-
-[Report issues in the queue](https://drupal.org/node/add/project-issue/drupal_cms), providing as much detail as you can. You can also join the #drupal-cms-support channel in the [Drupal Slack community](https://www.drupal.org/slack).
-
-Drupal CMS has adopted a [code of conduct](https://www.drupal.org/dcoc) that we expect all participants to adhere to.
-
-To contribute to Drupal CMS development, see the [drupal_cms project](https://www.drupal.org/project/drupal_cms).
-
-## License
-
-Drupal CMS and all derivative works are licensed under the [GNU General Public License, version 2 or later](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html).
-
-Learn about the [Drupal trademark and logo policy here](https://www.drupal.com/trademark).
+Thank you for your interest and support of our Washinton County Democratic Party of Utah!
