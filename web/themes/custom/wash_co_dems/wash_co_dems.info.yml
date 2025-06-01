@@ -4,7 +4,7 @@ hidden: false
 name: Washington County Democratic Party
 type: theme
 description: Custom theme based on Material Base theme.
-core_version_requirement: ^9 || ^10 || ^11
+core_version_requirement: ^11
 
 base theme: material_base_mdc                     # Default. Subtheme of Material Base with MDC library related stuff
 # base theme: material_base                        # Pure base theme without MDC library related stuff
@@ -56,4 +56,4 @@ regions_hidden:
 # Information added by Drupal.org packaging script on 2024-05-02
 version: '1.0.0'
 project: 'wash_co_dems'
-datestamp: 1714678693
+datestamp: 1748802345

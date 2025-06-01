@@ -1,17 +1,24 @@
 // Colors
 
-$color-primary-base: #6200ee;
-$color-secondary-base: #03dac6;
-$color-accent-base: $color-secondary-base;
-$color-bg-body: #FFF;
+$color-primary-base: #973C27 !default; // Reddish-brown cliffs
+$color-secondary-base: #622C1D !default; // Darker tones of cliffs / shadows
+$color-accent-base: #CE603D !default; // Sunset or Dawn light on cliffs
 
-$theme-primary: $color-primary-base;
-$theme-secondary: $color-secondary-base;
-$theme-background: $color-bg-body;
+$color-primary: $color-primary-base !default;
+$color-primary-light: lighten($color-primary, 10) !default;
+$color-primary-dark: darken($color-primary, 10) !default;
 
-$color-text-base: #000;
-$color-text: lighten($color-text-base, 26); // #424242
-$color-heading: lighten($color-text-base, 13); // #212121
+$color-secondary: $color-secondary-base !default;
+$color-secondary-light: lighten($color-secondary, 10) !default;
+$color-secondary-dark: darken($color-secondary, 10) !default;
+
+$color-accent: $color-accent-base !default;
+$color-accent-light: lighten($color-accent, 10) !default;
+$color-accent-dark: darken($color-accent, 10) !default;
+
+$color-bg-light: #FFF !default;
+$color-bg-dark: #121212 !default;
+$color-bg-body: $color-bg-light !default;
 
 // Fonts & typography
 
@@ -78,8 +85,8 @@ $font-weight-st1: 400;
 $font-size-st2: .875rem;
 $line-height-st2: 1.375rem;
 $font-weight-st2: 500;
- 
-// body 
+
+// body
 $font-size-text: 1rem;
 $line-height-text: 1.5rem;
 $font-weight-text: 400;
