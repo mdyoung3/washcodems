@@ -1,7 +1,7 @@
 ((Drupal, once) => {
   'use strict';
 
-  Drupal.behaviors.THEMENAME_Functions = {
+  Drupal.behaviors.wash_co_dems_Functions = {
     attach: (context, settings) => {
 
       // Put your common functions and handlers here. For example:

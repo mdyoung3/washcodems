@@ -6,9 +6,9 @@ dependencies:
   module:
     - system
   theme:
-    - THEMENAME
-id: THEMENAME_tools
-theme: THEMENAME
+    - wash_co_dems
+id: wash_co_dems_tools
+theme: wash_co_dems
 region: sidebar_first
 weight: 0
 provider: null

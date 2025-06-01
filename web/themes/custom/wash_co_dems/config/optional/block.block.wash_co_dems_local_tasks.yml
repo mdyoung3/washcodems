@@ -2,9 +2,9 @@ langcode: en
 status: true
 dependencies:
   theme:
-    - THEMENAME
-id: THEMENAME_local_tasks
-theme: THEMENAME
+    - wash_co_dems
+id: wash_co_dems_local_tasks
+theme: wash_co_dems
 region: content
 weight: -40
 provider: null

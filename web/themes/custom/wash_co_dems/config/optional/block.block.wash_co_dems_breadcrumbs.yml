@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - THEMENAME
-id: THEMENAME_breadcrumbs
-theme: THEMENAME
+    - wash_co_dems
+id: wash_co_dems_breadcrumbs
+theme: wash_co_dems
 region: breadcrumb
 weight: 0
 provider: null

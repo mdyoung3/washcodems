@@ -1,1 +1,1 @@
-!function(n,t){"use strict";n.behaviors.THEMENAME_Functions={attach:function(n,t){}}}(Drupal,once);
+!function(n,t){"use strict";n.behaviors.wash_co_dems_Functions={attach:function(n,t){}}}(Drupal,once);

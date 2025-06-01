@@ -4,9 +4,9 @@ dependencies:
   module:
     - search
   theme:
-    - THEMENAME
-id: THEMENAME_search
-theme: THEMENAME
+    - wash_co_dems
+id: wash_co_dems_search
+theme: wash_co_dems
 region: sidebar_first
 weight: -1
 provider: null

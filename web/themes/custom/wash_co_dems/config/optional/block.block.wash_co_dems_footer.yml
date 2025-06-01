@@ -6,9 +6,9 @@ dependencies:
   module:
     - system
   theme:
-    - THEMENAME
-id: THEMENAME_footer
-theme: THEMENAME
+    - wash_co_dems
+id: wash_co_dems_footer
+theme: wash_co_dems
 region: footer
 weight: -5
 provider: null

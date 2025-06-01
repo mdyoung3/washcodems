@@ -6,9 +6,9 @@ dependencies:
   module:
     - system
   theme:
-    - THEMENAME
-id: THEMENAME_main_menu
-theme: THEMENAME
+    - wash_co_dems
+id: wash_co_dems_main_menu
+theme: wash_co_dems
 region: navbar
 weight: -5
 provider: null
