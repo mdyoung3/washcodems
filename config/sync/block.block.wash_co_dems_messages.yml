@@ -1,0 +1,22 @@
+uuid: 9f544d2c-b57c-4dca-8981-03db59aeb537
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - wash_co_dems
+_core:
+  default_config_hash: Nft-LdLbtkYWevFO6mUMXtYIWyEFf3EmpZpp_LqPbw0
+id: wash_co_dems_messages
+theme: wash_co_dems
+region: messages
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

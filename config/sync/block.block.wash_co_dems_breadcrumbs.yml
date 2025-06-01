@@ -1,0 +1,22 @@
+uuid: 2e7b8c15-9a4c-4f10-879b-ce1586bd70ed
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - wash_co_dems
+_core:
+  default_config_hash: Z6NEAyeVoSrF5Is0GOSCL8qDlwISrcr_dftxFSsBJ_k
+id: wash_co_dems_breadcrumbs
+theme: wash_co_dems
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

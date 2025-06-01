@@ -1,0 +1,25 @@
+uuid: f1735544-691a-41c0-9c7c-f3c1eb319065
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - wash_co_dems
+_core:
+  default_config_hash: XkRXLCKI1LtV1ddEWQdKgdWR1kg8rGo1sFeeTtEGaO8
+id: wash_co_dems_branding
+theme: wash_co_dems
+region: navbar
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

@@ -20,14 +20,14 @@ libraries-override:
   material_base/base:                             # Contains base theme defaults and components, replaced by project theme except base.js
     css:
       base:
-        dist/css/base.css: false
+        dist/css/base.css: true
 #  material_base/grid: false                       # Contains Flexbox Grid definition
 #  material_base/icons-font: false                 # Contains Material icons fonts definitions
   material_base/fonts: wash_co_dems/fonts            # Contains default font definition, replaced by project fonts definitions
   material_base_mdc/mdc:                          # Contains default MDC definition, replaced by project MDC definition except mdc.js
     css:
       theme:
-        ../../dist/css/mdc.css: false
+        ../../dist/css/mdc.css: true
 
 regions:
   navbar: 'Navbar'

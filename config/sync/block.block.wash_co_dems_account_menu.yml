@@ -1,0 +1,27 @@
+uuid: 3da01f15-1bef-4029-9944-c6f3cc58003e
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - wash_co_dems
+_core:
+  default_config_hash: jALsojk0rKNbRhSBi52oT1XHxft98CNc5v0j7DeyFh4
+id: wash_co_dems_account_menu
+theme: wash_co_dems
+region: navbar
+weight: -4
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

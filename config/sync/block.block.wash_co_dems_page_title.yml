@@ -1,0 +1,20 @@
+uuid: ad0a1d0c-2a20-42b4-a48f-a03abe19ed25
+langcode: en
+status: true
+dependencies:
+  theme:
+    - wash_co_dems
+_core:
+  default_config_hash: EnDLBcS0iGDxDoft4h3K3hc_GsXh62VzRLZmSxvAdPQ
+id: wash_co_dems_page_title
+theme: wash_co_dems
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

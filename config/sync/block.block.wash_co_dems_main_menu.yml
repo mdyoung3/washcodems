@@ -1,0 +1,27 @@
+uuid: 05837543-bfdd-4f23-b54a-86559c8ed7f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - wash_co_dems
+_core:
+  default_config_hash: CNz9msnsA06NJIJ4gvcCXimxu-1SxvR9XjMOflPjdj4
+id: wash_co_dems_main_menu
+theme: wash_co_dems
+region: navbar
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

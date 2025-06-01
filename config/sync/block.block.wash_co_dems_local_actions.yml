@@ -1,0 +1,20 @@
+uuid: f851f31e-2c33-49c5-b656-5eb5b4df9bd9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - wash_co_dems
+_core:
+  default_config_hash: awefp0vEnH0JW_vX7KBb4AysAFCOFj2JLNC7gYjnl9k
+id: wash_co_dems_local_actions
+theme: wash_co_dems
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 088be754-b0c5-4052-ac32-dc4cb21c0924
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - wash_co_dems
+_core:
+  default_config_hash: vOwFFzk4BwkP7dS6AwOl7aGz-KM90o5xX5Pm8IOYs3Y
+id: wash_co_dems_content
+theme: wash_co_dems
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

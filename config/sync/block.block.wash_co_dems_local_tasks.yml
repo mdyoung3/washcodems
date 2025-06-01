@@ -1,0 +1,22 @@
+uuid: c48c5bc9-1e4b-413e-acf2-c89bb768db79
+langcode: en
+status: true
+dependencies:
+  theme:
+    - wash_co_dems
+_core:
+  default_config_hash: WOWjiJ5a1aB7ZMb8Tnn6f0c0zYKiPawwJ6AwvCW2FkY
+id: wash_co_dems_local_tasks
+theme: wash_co_dems
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

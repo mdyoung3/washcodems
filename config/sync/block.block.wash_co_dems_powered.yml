@@ -1,0 +1,22 @@
+uuid: 3fdfd559-36cf-4cdf-82d5-d92fa1c208d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - wash_co_dems
+_core:
+  default_config_hash: nbz_5UiY2zbSkiyOb7NVuv7Z9a8PFK_kU8xwqRxv_io
+id: wash_co_dems_powered
+theme: wash_co_dems
+region: footer
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

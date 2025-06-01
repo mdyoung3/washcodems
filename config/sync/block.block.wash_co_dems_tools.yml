@@ -1,0 +1,27 @@
+uuid: dfacf9da-ead2-4ca7-9ae9-05fbf06dcda2
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - wash_co_dems
+_core:
+  default_config_hash: xwviWQsbFC6_XngzPilmTP7_H10FBNslDItLqynmGBw
+id: wash_co_dems_tools
+theme: wash_co_dems
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
