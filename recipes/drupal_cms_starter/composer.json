@@ -4,7 +4,7 @@
     "type": "drupal-recipe",
     "license": ["GPL-2.0-or-later"],
     "require": {
-        "drupal/automatic_updates": "^3.1.7",
+        "drupal/automatic_updates": "^3.1.7 || ^4",
         "drupal/bpmn_io": "^2.0.6",
         "drupal/core": "^10.4 || ^11",
         "drupal/eca": "^2.1.4",
@@ -22,5 +22,5 @@
         "drupal/project_browser": "^2-beta1",
         "drupal/token": "^1"
     },
-    "version": "1.1.1"
+    "version": "1.1.3"
 }

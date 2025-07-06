@@ -1,15 +1,15 @@
 # !!! Comment out 'hidden' parameter below or change it to 'false' for making your theme visible in theme list
-hidden: false
+# hidden: true
 
 name: Washington County Democratic Party
 type: theme
 description: Custom theme based on Material Base theme.
-core_version_requirement: ^11
+core_version_requirement: ^9 || ^10 || ^11
 
 base theme: material_base_mdc                     # Default. Subtheme of Material Base with MDC library related stuff
 # base theme: material_base                        # Pure base theme without MDC library related stuff
 
-screenshot: wash_co_dems_icon.jpg
+screenshot: southern_utah_democrats.png
 
 libraries:
   - wash_co_dems/theme                               # Contains project theme defaults and components (extends whole base)
@@ -20,14 +20,14 @@ libraries-override:
   material_base/base:                             # Contains base theme defaults and components, replaced by project theme except base.js
     css:
       base:
-        dist/css/base.css: true
-  material_base/grid: true                       # Contains Flexbox Grid definition
+        dist/css/base.css: false
+#  material_base/grid: false                       # Contains Flexbox Grid definition
 #  material_base/icons-font: false                 # Contains Material icons fonts definitions
   material_base/fonts: wash_co_dems/fonts            # Contains default font definition, replaced by project fonts definitions
   material_base_mdc/mdc:                          # Contains default MDC definition, replaced by project MDC definition except mdc.js
     css:
       theme:
-        ../../dist/css/mdc.css: true
+        ../../dist/css/mdc.css: false
 
 regions:
   navbar: 'Navbar'
@@ -54,6 +54,6 @@ regions_hidden:
   page_top: 'Page top'
 
 # Information added by Drupal.org packaging script on 2024-05-02
-version: '1.0.0'
-project: 'wash_co_dems'
-datestamp: 1748802345
+version: '3.0.0'
+project: 'material_base'
+datestamp: 1714678693

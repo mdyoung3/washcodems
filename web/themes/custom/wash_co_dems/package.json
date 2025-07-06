@@ -6,7 +6,7 @@
   "license": "ISC",
   "scripts": {
     "build": "NODE_ENV=production webpack",
-    "dev": "webpack --watch"
+    "develop": "webpack --watch"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
