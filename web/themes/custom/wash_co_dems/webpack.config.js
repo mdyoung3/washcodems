@@ -35,6 +35,7 @@ module.exports = [{
   entry: {
     theme: ['./js/theme.js', './scss/theme.scss'],
     mdc: ['./js/mdc.js', './scss/mdc.scss'],
+    washcodems: ['./js/washcodems.js', './scss/washcodems.scss'],
     // Imports all images and icons for handling by webpack.
     assets: './js/assets.js',
     // CSS only entries (without JS part).

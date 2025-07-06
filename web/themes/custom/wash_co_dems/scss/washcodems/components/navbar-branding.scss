@@ -1,14 +1,15 @@
+@charset "UTF-8";
+
 .navbar-branding {
   &__logo {
-    padding: 4px 12px;
-    display: block;
 
     img,
     svg,
     .navbar-branding__logo-image {
       display: block;
-      width: 40px;
-      height: 40px;
+      width: 140px;
+      height: 140px;
+      margin-top: 88px;
     }
   }
 }
