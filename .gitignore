@@ -27,7 +27,7 @@
 /web/modules/contrib
 /web/profiles/README.txt
 /web/sites/development.services.yml
-/web/sites/settings.local.php
+/web/sites/default/settings.local.php
 /web/themes/contrib
 /web/.csslintrc
 /web/.editorconfig
