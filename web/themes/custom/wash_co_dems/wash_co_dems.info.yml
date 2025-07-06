@@ -54,6 +54,6 @@ regions_hidden:
   page_top: 'Page top'
 
 # Information added by Drupal.org packaging script on 2024-05-02
-version: '3.0.0'
-project: 'material_base'
-datestamp: 1714678693
+version: '1.0.0'
+project: 'wash_co_dems'
+datestamp: 1751824101
