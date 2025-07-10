@@ -1,9 +1,9 @@
 _core:
   default_config_hash: '-bw563cVDAeUQThWL7jRpkx6IVGPpV5e9ULKUykUiqs'
-navbar_fixed: 0
-navbar_style: standard
+navbar_fixed: 1
+navbar_style: dense
 drawer_style: modal
-drawer_height: full
+drawer_height: below_navbar
 footer_style: standard
 messages_fixed: 0
 features:

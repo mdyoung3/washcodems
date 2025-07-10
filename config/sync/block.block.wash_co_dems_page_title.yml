@@ -8,8 +8,8 @@ _core:
   default_config_hash: EnDLBcS0iGDxDoft4h3K3hc_GsXh62VzRLZmSxvAdPQ
 id: wash_co_dems_page_title
 theme: wash_co_dems
-region: content
-weight: -50
+region: header
+weight: -5
 provider: null
 plugin: page_title_block
 settings:

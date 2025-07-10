@@ -5,6 +5,7 @@ dependencies:
   config:
     - system.menu.admin
   module:
+    - smart_date
     - taxonomy
     - user
   enforced:
@@ -806,6 +807,7 @@ display:
           empty_table: true
           caption: ''
           description: ''
+          class: ''
       row:
         type: fields
         options:
