@@ -1,0 +1,10 @@
+uuid: b683a178-37bd-4bae-a4b0-d1324e39b5c8
+langcode: en
+status: true
+dependencies: {  }
+id: page_banner
+label: 'Page Banner'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

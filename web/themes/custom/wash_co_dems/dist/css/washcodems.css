@@ -5,9 +5,10 @@
 .navbar-branding__logo svg,
 .navbar-branding__logo .navbar-branding__logo-image {
   display: block;
-  width: 140px;
-  height: 140px;
-  margin-top: 88px;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  padding: 2px;
 }
 
 .navbar .navbar__container.mdc-top-app-bar__row {
@@ -15,6 +16,7 @@
   margin-right: auto;
   max-width: 1256px;
   padding: 0 12px;
+  height: auto;
 }
 .navbar .navbar-branding__logo.site-logo {
   float: left;
@@ -33,6 +35,9 @@
   float: right;
   display: inline-block;
   margin-left: auto;
+}
+.navbar .navbar-branding__logo img {
+  margin-top: 0;
 }
 
 body {

@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+
 .navbar {
   .navbar__container.mdc-top-app-bar__row {
     //background: none;
@@ -7,6 +9,7 @@
     margin-right: auto;
     max-width: 1256px;
     padding: 0 12px;
+    height: auto;
   }
 
   .navbar-branding__logo.site-logo {
@@ -30,5 +33,9 @@
     margin-left: auto;
   }
 
+  .navbar-branding__logo img{
+    margin-top: 0;
+  }
 }
+
 
