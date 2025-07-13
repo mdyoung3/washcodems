@@ -1,0 +1,31 @@
+uuid: 8a60a77b-ef02-4f5e-be95-c4b764c3d036
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_basic_page_paragraphs
+    - node.type.page
+    - paragraphs.paragraphs_type.page_banner
+  module:
+    - entity_reference_revisions
+id: node.page.field_basic_page_paragraphs
+field_name: field_basic_page_paragraphs
+entity_type: node
+bundle: page
+label: 'Basic Page Paragraphs'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      page_banner: page_banner
+    negate: 0
+    target_bundles_drag_drop:
+      page_banner:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

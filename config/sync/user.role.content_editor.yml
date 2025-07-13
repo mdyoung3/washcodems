@@ -12,6 +12,7 @@ dependencies:
     - node.type.news
     - node.type.page
     - node.type.person
+    - node.type.project
     - workflows.workflow.basic_editorial
   module:
     - content_moderation
@@ -50,6 +51,7 @@ permissions:
   - 'create news content'
   - 'create page content'
   - 'create person content'
+  - 'create project content'
   - 'create remote_video media'
   - 'create svg_image media'
   - 'create url aliases'
@@ -59,6 +61,7 @@ permissions:
   - 'delete any news content'
   - 'delete any page content'
   - 'delete any person content'
+  - 'delete any project content'
   - 'delete any remote_video media'
   - 'delete any svg_image media'
   - 'delete event revisions'
@@ -66,12 +69,14 @@ permissions:
   - 'delete own files'
   - 'delete page revisions'
   - 'delete person revisions'
+  - 'delete project revisions'
   - 'edit any document media'
   - 'edit any event content'
   - 'edit any image media'
   - 'edit any news content'
   - 'edit any page content'
   - 'edit any person content'
+  - 'edit any project content'
   - 'edit any remote_video media'
   - 'edit any svg_image media'
   - 'revert all revisions'
