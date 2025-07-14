@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.card
+    - field.field.node.page.field_banner_call_to_action
+    - field.field.node.page.field_banner_text
     - field.field.node.page.field_basic_page_paragraphs
     - field.field.node.page.field_content
     - field.field.node.page.field_description
@@ -43,6 +45,8 @@ content:
     region: content
 hidden:
   content_moderation_control: true
+  field_banner_call_to_action: true
+  field_banner_text: true
   field_basic_page_paragraphs: true
   field_content: true
   field_tags: true

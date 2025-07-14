@@ -3,6 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.page.field_banner_call_to_action
+    - field.field.node.page.field_banner_text
     - field.field.node.page.field_basic_page_paragraphs
     - field.field.node.page.field_content
     - field.field.node.page.field_description
@@ -14,6 +16,7 @@ dependencies:
     - entity_reference_revisions
     - layout_builder
     - layout_discovery
+    - link
     - text
     - user
 third_party_settings:
@@ -27,8 +30,8 @@ third_party_settings:
           label: banner
           context_mapping: {  }
         components:
-          ff652b8b-e39a-4621-a64d-9e7abfa71864:
-            uuid: ff652b8b-e39a-4621-a64d-9e7abfa71864
+          3fdd6ee3-1682-4fc6-abe6-882f7ef48441:
+            uuid: 3fdd6ee3-1682-4fc6-abe6-882f7ef48441
             region: content
             configuration:
               id: 'field_block:node:page:field_featured_image'
@@ -42,9 +45,44 @@ third_party_settings:
                 type: entity_reference_entity_view
                 label: visually_hidden
                 settings:
-                  view_mode: 16_9_medium
+                  view_mode: 16_9_large
                 third_party_settings: {  }
             weight: 0
+            additional: {  }
+          9f4d51ef-782b-49dc-891b-4e405b04e58c:
+            uuid: 9f4d51ef-782b-49dc-891b-4e405b04e58c
+            region: content
+            configuration:
+              id: 'field_block:node:page:field_banner_text'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: basic_string
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          6813a324-579f-4356-857b-56ddba6b8650:
+            uuid: 6813a324-579f-4356-857b-56ddba6b8650
+            region: content
+            configuration:
+              id: 'field_block:node:page:field_banner_call_to_action'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: link
+                label: above
+                settings:
+                  trim_length: 80
+                  url_only: false
+                  url_plain: false
+                  rel: ''
+                  target: ''
+                third_party_settings: {  }
+            weight: 3
             additional: {  }
         third_party_settings: {  }
       -
@@ -125,6 +163,25 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: -20
+    region: content
+  field_banner_call_to_action:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_banner_text:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
     region: content
   field_basic_page_paragraphs:
     type: entity_reference_revisions_entity_view

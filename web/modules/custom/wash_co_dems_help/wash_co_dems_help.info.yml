@@ -1,0 +1,5 @@
+name: 'Wash co dems help'
+type: module
+description: 'Helper module for wash_co_dems theme'
+package: 'Wash Co Dems'
+core_version_requirement: ^10 || ^11

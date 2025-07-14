@@ -1,0 +1,33 @@
+<?php
+
+use Drupal\Core\StringTranslation\TranslatableMarkup;
+
+/**
+ * @file
+ * Contains easy_email.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function wash_co_dems_help_help($route_name, \Drupal\Core\Routing\RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.wash_co_dems_helper':
+      return new TranslatableMarkup('<p>This is the helper module for the wash co dems theme. This module contains functionalities that assist with the operation of the Wash Co Dems theme. From providing blocks to other utilities, this module is a necessary companion to the Wash Co Dems theme.</p>');
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function wash_co_dems_help_theme( ) {
+  return [
+    'wash_co_dems_page_banner_theme' => [
+      'variables' => [
+        'variables' => ['image_url' => NULL],
+      ],
+    ],
+  ];
+}
