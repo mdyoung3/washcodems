@@ -50,7 +50,10 @@ function wash_co_dems_preprocess_html(&$variables) {
 function wash_co_dems_preprocess_block(&$variables)
 {
   $node = \Drupal::routeMatch()->getParameter('node');
-  if ($node instanceof \Drupal\node\NodeInterface) {
+  if ($node instanceof \Drupal\node\NodeInterface
+    && $node->hasField('field_banner_call_to_action')
+    || $node->hasField('field_banner_text')
+  ) {
     // You can get a field value one of two ways. Here are examples of both
     $variables['field_banner_call_to_action_url'] = $node->get('field_banner_call_to_action')->uri;
     $variables['field_banner_call_to_action_title'] = $node->get('field_banner_call_to_action')->title;

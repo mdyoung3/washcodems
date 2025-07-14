@@ -22,3 +22,5 @@ If you wish to modify the subtheme:
 
 - Styles can be added or overridden in the subtheme's CSS files found in the
 - Follow instructions here: https://mb.4dd.pw/getting-started
+
+This uses Material Base. This is a reference for styles and templates: https://git.drupalcode.org/project/material_base/-/tree/3.x/docs?ref_type=heads

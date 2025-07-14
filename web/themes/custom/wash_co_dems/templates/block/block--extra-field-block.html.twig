@@ -27,12 +27,11 @@
 #}
 {% set classes = [
   'block',
+  'container',
   'block-' ~ configuration.provider|clean_class,
   'block-' ~ plugin_id|clean_class,
   block_bundle ? 'block-' ~ block_bundle|clean_class : 'block-default',
 ] %}
-
-{#{{ dump(field_banner_call_to_action) }}#}
 
 <div{{ attributes.addClass(classes) }}>
   {{ title_prefix }}
@@ -43,19 +42,7 @@
   {% endif %}
   {{ title_suffix }}
   {% block content %}
-    <div class="banner-image-container">
-        {{ content }}
-      <div class="container banner-box">
-        <div class="margin-box big-title text-align-center">
-          <h1 class="title">{{ node_title }} </h1>
-          <a href="{{ field_banner_call_to_action_url }}" class="mdc-button mdc-button--raised">
-            <span class="mdc-button__label">
-              {{ field_banner_call_to_action_title }}
-            </span>
-          </a>
-          <div class="slogan h5">{{ field_banner_text }}</div>
-        </div>
-      </div>
+    <div class="block__content">
     </div>
   {% endblock %}
 </div>
