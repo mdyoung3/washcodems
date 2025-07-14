@@ -16,7 +16,6 @@ dependencies:
     - entity_reference_revisions
     - layout_builder
     - layout_discovery
-    - link
     - text
     - user
 third_party_settings:
@@ -49,41 +48,6 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 0
             additional: {  }
-          9f4d51ef-782b-49dc-891b-4e405b04e58c:
-            uuid: 9f4d51ef-782b-49dc-891b-4e405b04e58c
-            region: content
-            configuration:
-              id: 'field_block:node:page:field_banner_text'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                type: basic_string
-                label: above
-                settings: {  }
-                third_party_settings: {  }
-            weight: 2
-            additional: {  }
-          6813a324-579f-4356-857b-56ddba6b8650:
-            uuid: 6813a324-579f-4356-857b-56ddba6b8650
-            region: content
-            configuration:
-              id: 'field_block:node:page:field_banner_call_to_action'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                type: link
-                label: above
-                settings:
-                  trim_length: 80
-                  url_only: false
-                  url_plain: false
-                  rel: ''
-                  target: ''
-                third_party_settings: {  }
-            weight: 3
-            additional: {  }
         third_party_settings: {  }
       -
         layout_id: layout_onecol
@@ -95,14 +59,19 @@ third_party_settings:
             region: content
             configuration:
               id: 'field_block:node:page:field_content'
+              label: Content
               label_display: '0'
+              provider: layout_builder
               context_mapping:
                 entity: layout_builder.entity
+                view_mode: view_mode
               formatter:
                 type: text_default
                 label: hidden
                 settings: {  }
-                third_party_settings: {  }
+                third_party_settings:
+                  field_formatter_class:
+                    class: container
             weight: 2
             additional: {  }
           b09072a1-7bd8-49c5-ac58-2da953562e12:
@@ -164,25 +133,6 @@ content:
     third_party_settings: {  }
     weight: -20
     region: content
-  field_banner_call_to_action:
-    type: link
-    label: above
-    settings:
-      trim_length: 80
-      url_only: false
-      url_plain: false
-      rel: ''
-      target: ''
-    third_party_settings: {  }
-    weight: 104
-    region: content
-  field_banner_text:
-    type: basic_string
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 103
-    region: content
   field_basic_page_paragraphs:
     type: entity_reference_revisions_entity_view
     label: above
@@ -209,6 +159,8 @@ content:
     weight: 1
     region: content
 hidden:
+  field_banner_call_to_action: true
+  field_banner_text: true
   field_description: true
   field_tags: true
   layout_builder__layout: true
