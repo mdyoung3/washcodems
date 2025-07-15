@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+.block-views-blocklatest-latest {
+  .node {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: .25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .node img {
+    border-radius: .25rem .25rem 0 0;
+    object-fit: cover;
+  }
+
+  .node h2 {
+    color: #212529;
+    font-size: 24px; /* Increased font size */
+    font-weight: bold; /* Make the title bold */
+    text-transform: uppercase; /* Transform text to uppercase */
+  }
+
+  .node h2 a {
+    text-decoration: none;
+    color: inherit; /* Make the link color same as the h2 color */
+  }
+}
+

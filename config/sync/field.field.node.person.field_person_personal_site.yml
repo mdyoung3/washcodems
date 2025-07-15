@@ -1,0 +1,23 @@
+uuid: 05151201-7fa6-4d4c-a32f-b4eaa2bdac31
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_person_personal_site
+    - node.type.person
+  module:
+    - link
+id: node.person.field_person_personal_site
+field_name: field_person_personal_site
+entity_type: node
+bundle: person
+label: 'Personal Site'
+description: 'A link to a candidate site or just a personal site related to the person being highlighted. '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

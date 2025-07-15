@@ -16,14 +16,12 @@ $color-heading: lighten($color-text-base, 13); // #212121
 // Fonts & typography
 
 $font-family-base: 'Roboto', sans-serif;
-$font-family-additional: 'Montserrat', sans-serif;
+$font-family-additional: 'Roboto', sans-serif;
 
 $font-family-text: $font-family-base;
 $font-family-heading: $font-family-additional;
 
 // Default values, inherited from base.
-/*
-
 // Colors
 
 $color-bg-highlighted: darken($color-bg-body, 12);
@@ -114,7 +112,6 @@ $sm: 768px;
 $md: 992px;
 $lg: 1200px;
 $xl: 1520px;
-*/
 
 // Grid
 // Use variables below for altering Flexbox Grid settings.

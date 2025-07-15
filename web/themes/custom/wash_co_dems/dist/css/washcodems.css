@@ -11,11 +11,15 @@
   padding: 2px;
 }
 
-.navbar .navbar__container.mdc-top-app-bar__row {
+.drawer-below-navbar .navbar {
+  z-index: 99;
+}
+
+.navbar .navbar__container {
   margin-left: auto;
   margin-right: auto;
   max-width: 1256px;
-  padding: 0 12px;
+  padding: 12px 12px;
   height: auto;
 }
 .navbar .navbar-branding__logo.site-logo {
@@ -65,12 +69,55 @@
   margin: 24px;
   color: #fff;
 }
+.banner-image-container .banner-box .text-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 15px;
+}
 .banner-image-container .banner-box .h5 {
   color: #fff;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.block-views-blocklatest-latest .node {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 0.25rem;
+  margin-bottom: 1.5rem;
+}
+.block-views-blocklatest-latest .node img {
+  border-radius: 0.25rem 0.25rem 0 0;
+  object-fit: cover;
+}
+.block-views-blocklatest-latest .node h2 {
+  color: #212529;
+  font-size: 24px; /* Increased font size */
+  font-weight: bold; /* Make the title bold */
+  text-transform: uppercase; /* Transform text to uppercase */
+}
+.block-views-blocklatest-latest .node h2 a {
+  text-decoration: none;
+  color: inherit; /* Make the link color same as the h2 color */
 }
 
 body {
-  background: white;
+  background: #fff;
+}
+
+p {
+  margin-bottom: 8px;
+}
+
+.node__meta {
+  display: none;
 }
 
 /*# sourceMappingURL=washcodems.css.map*/

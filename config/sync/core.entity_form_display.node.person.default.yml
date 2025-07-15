@@ -9,11 +9,13 @@ dependencies:
     - field.field.node.person.field_person__email
     - field.field.node.person.field_person__phone_number
     - field.field.node.person.field_person__role_job_title
+    - field.field.node.person.field_person_personal_site
     - field.field.node.person.field_tags
     - node.type.person
     - workflows.workflow.basic_editorial
   module:
     - content_moderation
+    - link
     - media_library
     - path
     - scheduler
@@ -78,6 +80,14 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  field_person_personal_site:
+    type: link_default
+    weight: 51
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
     third_party_settings: {  }
   field_tags:
     type: tagify_entity_reference_autocomplete_widget
@@ -164,9 +174,9 @@ content:
     third_party_settings: {  }
   url_redirects:
     weight: 50
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   publish_state: true
   unpublish_state: true
