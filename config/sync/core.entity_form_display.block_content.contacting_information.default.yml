@@ -1,0 +1,41 @@
+uuid: e8d52df3-ca5b-4a24-aa36-abd059afa791
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.contacting_information
+    - field.field.block_content.contacting_information.field_address
+    - field.field.block_content.contacting_information.field_email
+    - field.field.block_content.contacting_information.field_phone
+  module:
+    - telephone
+id: block_content.contacting_information.default
+targetEntityType: block_content
+bundle: contacting_information
+mode: default
+content:
+  field_address:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_email:
+    type: email_default
+    weight: 2
+    region: content
+    settings:
+      placeholder: ''
+      size: 60
+    third_party_settings: {  }
+  field_phone:
+    type: telephone_default
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  info: true

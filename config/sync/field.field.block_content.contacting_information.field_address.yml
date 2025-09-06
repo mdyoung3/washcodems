@@ -1,0 +1,19 @@
+uuid: f420d853-b7b2-4314-984d-9c94318e2d36
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.contacting_information
+    - field.storage.block_content.field_address
+id: block_content.contacting_information.field_address
+field_name: field_address
+entity_type: block_content
+bundle: contacting_information
+label: Address
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
