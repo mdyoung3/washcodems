@@ -1,0 +1,9 @@
+The project is a nonprofit and activism-focused website built with Drupal 11, using twig templating, sass and javascript. Its design should feel modern, responsive, and mission-driven, aimed at serving communities, nonprofits, advocacy groups, and grassroots movements. Use this as a reference: https://colorlib.com/wp/wp-content/uploads/sites/2/social-activity-ngo-wordpress-theme.jpg.webp
+
+At the top of the site, the header element will have two divs and a navigation of differing color. One will display clear contact information such as an address, phone number, and email, along with social media icons and a search option. The next will have the logo should combine an icon with text, and the main navigation will guide visitors to sections like Home, About, Programs, Events, Donations, News, Resources, and Contact.
+
+The hero section should use a strong, activism- or community-related image as its backdrop, paired with a bold main message, a short slogan, and a supporting paragraph to immediately capture attention and communicate purpose.
+
+Below the hero, feature tiles will highlight the organization’s core values or mission points. Each tile should have both an icon and an image to reinforce the message visually.
+
+The site’s functional highlights include clear calls to action for programs, campaigns, donations, events, and news updates. Storytelling should be visual and organized into categories so visitors can easily connect with the mission. A simple donation checkout process should be included, along with contact and newsletter signup forms to encourage engagement. The design should be mobile-friendly, optimized for search engines, and support lightweight CSS and JavaScript animations. Navigation should allow for dropdown menus or a larger mega menu, depending on the scale of content.
